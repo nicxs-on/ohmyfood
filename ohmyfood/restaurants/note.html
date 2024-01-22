@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menu - La note enchantée</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <div class="main__container">
+        <header>
+            <div class="header__button">
+                <a class="btn arrow__btn" href="../index.html"><i class="fa-solid fa-arrow-left"></i></a>
+            </div>
+            <div class="header__logo">
+                <a href="../index.html"><img src="../assets/Images et textes Ohmyfood/images/logo/ohmyfood@2x.svg" alt="logo ohmyfood"></a>
+            </div>
+        </header>
+        <main>
+            <div class="section__hero">
+                <div class="hero-image bg1"></div>
+            </div>
+            <section class="section__menu container">
+                <div class="menu__title">
+                    <h1>La note enchantée</h1>
+                    <button class="btn__favorite">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-heart full__heart"></i>
+                    </button>
+                </div>            
+                <div class="section__commande">
+                    <form action="#" method="POST"> 
+                        <fieldset>
+                            <legend>Entrées</legend>
+                            <div class="commande__form-group">
+                                <input type="checkbox" name="entrees" id="entree1" class="commande__form-input" value="25">
+                                <label for="entree1">
+                                    <span class="commande__form-title">
+                                        <span class="commande__form-title__title">Ravioles de foie gras</span>
+                                        <span class="commande__form-title__desc">Accompagnées de leur crème à la truffe</span>
+                                    </span>
+                                    <span class="commande__form-price">25</span>
+                                </label>
+                            </div>
+                            <div class="commande__form-group">
+                                <input type="checkbox" name="entrees" id="entree2" class="commande__form-input" value="35">
+                                <label for="entree2">
+                                    <span class="commande__form-title">
+                                        <span class="commande__form-title__title">Caviar osciètre</span>
+                                        <span class="commande__form-title__desc">Sur blini à la farine de blé noir</span>
+                                    </span>
+                                    <span class="commande__form-price">35</span>
+                                </label>
+                            </div>
+                            <div class="commande__form-group">
+                                <input type="checkbox" name="entrees" id="entree3" class="commande__form-input" value="20">
+                                <label for="entree3">
+                                    <span class="commande__form-title">
+                                        <span class="commande__form-title__title">Homard et espuma de potiron</span>
+                                        <span class="commande__form-title__desc">Marinés aux zestes d'orange</span>
+                                    </span>
+                                    <span class="commande__form-price">20</span>
+                                </label>
+                            </div>
+                            <div class="commande__form-group">
+                                <input type="checkbox" name="entrees" id="entree4" class="commande__form-input" value="35">
+                                <label for="entree4">
+                                    <span class="commande__form-title">
+                                        <span class="commande__form-title__title">Foie gras de canard cuit entier</span>
+                                        <span class="commande__form-title__desc">Confiture de figue et pain toasté</span>
+                                    </span>
+                                    <span class="commande__form-price">35</span>
+                                </label>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Plats</legend>
+                            <div class="commande__form-group">
+                                <input type="checkbox" name="plats" id="plat1" class="commande__form-input" value="40">
+                                <label for="plat1">
+                                    <span class="commande__form-title">
+                                        <span class="commande__form-title__title">Noix de coquilles Saint-Jacques</span>
+                                        <span class="commande__form-title__desc">Sur lit de purée de céleri-rave</span>
+                                    </span>
+                                    <span class="commande__form-price">40</span>
+                                </label>
+                            </div>
+                            <div class="commande__form-group">
+                                <input type="checkbox" name="plats" id="plat2" class="commande__form-input" value="35">
+                                <label for="plat2">
+                                    <span class="commande__form-title">
+                                        <span class="commande__form-title__title">Langoustine poêlée</span>
+                                        <span class="commande__form-title__desc">Purée de patate douce</span>
+                                    </span>
+                                    <span class="commande__form-price">35</span>
+                                </label>
+                            </div>
+                            <div class="commande__form-group">
+                                <input type="checkbox" name="plats" id="plat3" class="commande__form-input" value="44">
+                                <label for="plat3">
+                                    <span class="commande__form-title">
+                                        <span class="commande__form-title__title">Mijoté de queue de bœuf</span>
+                                        <span class="commande__form-title__desc">Et riz sauvage aux zestes de citron</span>
+                                    </span>
+                                    <span class="commande__form-price">44</span>
+                                </label>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Desserts</legend>
+                            <div class="commande__form-group">
+                                <input type="checkbox" name="desserts" id="dessert1" class="commande__form-input" value="18">
+                                <label for="dessert1">
+                                    <span class="commande__form-title">
+                                        <span class="commande__form-title__title">Macaron noisette et chocolat</span>
+                                        <span class="commande__form-title__desc">Glace au caramel brun et sel de Guérande</span>
+                                    </span>
+                                    <span class="commande__form-price">18</span>
+                                </label>
+                            </div>
+                            <div class="commande__form-group">
+                                <input type="checkbox" name="desserts" id="dessert2" class="commande__form-input" value="22">
+                                <label for="dessert2">
+                                    <span class="commande__form-title">
+                                        <span class="commande__form-title__title">Baba au rhum revisité</span>
+                                        <span class="commande__form-title__desc">Avec son coulis de citron</span>
+                                    </span>
+                                    <span class="commande__form-price">22</span>
+                                </label>
+                            </div>
+                            <div class="commande__form-group">
+                                <input type="checkbox" name="desserts" id="dessert3" class="commande__form-input" value="23">
+                                <label for="dessert3">
+                                    <span class="commande__form-title">
+                                        <span class="commande__form-title__title">Tarte au citron meringuée</span>
+                                        <span class="commande__form-title__desc">Déstructurée</span>
+                                    </span>
+                                    <span class="commande__form-price">23</span>
+                                </label>
+                            </div>
+                        </fieldset>
+                        <button class="btn reserve__btn" type="submit">Commander</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+                <div class="footer__wrapper">
+                    <div class="footer__title">
+                        <h2>ohmyfood</h2>
+                    </div>
+                    <div class="footer__link">
+                        <a href="#"><i class="fa-solid fa-utensils"></i>Proposer un restaurant</a>
+                        <a href="#"><i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</a>
+                        <a href="#">Mentions légales</a>
+                        <a href="mailto:email@example.com">Contact</a>
+                    </div>
+                </div>
+        </footer>
+    </div>
+</body>
+</html>
